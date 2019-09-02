@@ -8,12 +8,15 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class AdminController extends Controller
 {
-    
+    /**
+     * @Route("/", name="home")
+     */
     
     public function showIndex()
     {
         
-        
+       //return new Response("<div>Hello World</div>"); 
+       return $this->render("admin/index.html.twig");
                                 
     }
 }

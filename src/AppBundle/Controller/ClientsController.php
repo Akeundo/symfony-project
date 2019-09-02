@@ -9,13 +9,15 @@ use Symfony\Component\HttpFoundation\Request;
 
 class ClientsController extends Controller
 {
-
+/**
+ * @Route("/guests", name="index_clients")
+ */
 
     
     public function showIndex()
     {
         
-        
+        return $this->render("clients/index.html.twig");
         
     }
 
