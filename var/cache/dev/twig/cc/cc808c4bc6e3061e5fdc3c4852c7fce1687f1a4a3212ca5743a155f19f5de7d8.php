@@ -15,11 +15,11 @@ class __TwigTemplate_7a9104eca2ae4bebc3a6272336a4a99aa2e4f80b83483853c8d9533fed4
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_c773ed7831e069fc2dc66f2a829e46b863afa47c651dfe5384b29723163fef4a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_c773ed7831e069fc2dc66f2a829e46b863afa47c651dfe5384b29723163fef4a->enter($__internal_c773ed7831e069fc2dc66f2a829e46b863afa47c651dfe5384b29723163fef4a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/config.svg"));
+        $__internal_272146b4d8b93fcaaa52b1105025ae1d76c4cb8dd11b847541a8e6173a069467 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_272146b4d8b93fcaaa52b1105025ae1d76c4cb8dd11b847541a8e6173a069467->enter($__internal_272146b4d8b93fcaaa52b1105025ae1d76c4cb8dd11b847541a8e6173a069467_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/config.svg"));
 
-        $__internal_d166cb66e4142bf1d7a3f2da120376e12daac6306cf3b794d935ad61b099e1ae = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_d166cb66e4142bf1d7a3f2da120376e12daac6306cf3b794d935ad61b099e1ae->enter($__internal_d166cb66e4142bf1d7a3f2da120376e12daac6306cf3b794d935ad61b099e1ae_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/config.svg"));
+        $__internal_db828c1ce732b1d308d14dcd9e936c1c1ae2425d35f6a37315d685e268eb79b2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_db828c1ce732b1d308d14dcd9e936c1c1ae2425d35f6a37315d685e268eb79b2->enter($__internal_db828c1ce732b1d308d14dcd9e936c1c1ae2425d35f6a37315d685e268eb79b2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/config.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -27,10 +27,10 @@ class __TwigTemplate_7a9104eca2ae4bebc3a6272336a4a99aa2e4f80b83483853c8d9533fed4
 </svg>
 ";
         
-        $__internal_c773ed7831e069fc2dc66f2a829e46b863afa47c651dfe5384b29723163fef4a->leave($__internal_c773ed7831e069fc2dc66f2a829e46b863afa47c651dfe5384b29723163fef4a_prof);
+        $__internal_272146b4d8b93fcaaa52b1105025ae1d76c4cb8dd11b847541a8e6173a069467->leave($__internal_272146b4d8b93fcaaa52b1105025ae1d76c4cb8dd11b847541a8e6173a069467_prof);
 
         
-        $__internal_d166cb66e4142bf1d7a3f2da120376e12daac6306cf3b794d935ad61b099e1ae->leave($__internal_d166cb66e4142bf1d7a3f2da120376e12daac6306cf3b794d935ad61b099e1ae_prof);
+        $__internal_db828c1ce732b1d308d14dcd9e936c1c1ae2425d35f6a37315d685e268eb79b2->leave($__internal_db828c1ce732b1d308d14dcd9e936c1c1ae2425d35f6a37315d685e268eb79b2_prof);
 
     }
 
@@ -57,6 +57,6 @@ class __TwigTemplate_7a9104eca2ae4bebc3a6272336a4a99aa2e4f80b83483853c8d9533fed4
         return new Twig_Source("<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
     <path fill=\"#AAAAAA\" d=\"M11,5.1C11,3.4,9.6,2,7.9,2H5.1C3.4,2,2,3.4,2,5.1v12.9C2,19.6,3.4,21,5.1,21h2.9c1.7,0,3.1-1.4,3.1-3.1V5.1z M5.2,4h2.7C8.4,4,9,4.8,9,5.3V11H4V5.3C4,4.8,4.6,4,5.2,4z M22,5.1C22,3.4,20.6,2,18.9,2h-2.9C14.4,2,13,3.4,13,5.1v12.9c0,1.7,1.4,3.1,3.1,3.1h2.9c1.7,0,3.1-1.4,3.1-3.1V5.1z M16,4h2.8C19.4,4,20,4.8,20,5.3V8h-5V5.3C15,4.8,15.5,4,16,4z\"/>
 </svg>
-", "@WebProfiler/Icon/config.svg", "/Users/bernardopineda/htdocs/work/lynda/symfony/learn-symfony-3/passing_data/_final/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/config.svg");
+", "@WebProfiler/Icon/config.svg", "/Users/admin/Documents/GitHub/symfony-project/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/config.svg");
     }
 }
